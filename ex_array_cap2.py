@@ -10,7 +10,7 @@ def buscaMenor(arr):
     return menor_indice
 
 
-def ordenacaoPorSelecao(arr):
+def ordenacaoPorSelecao(arr): 
     novoArr = []
     for i in range(len(arr)):
         menor = buscaMenor(arr)
